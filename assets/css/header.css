@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    background-color: #134288;
+    align-items: center;
+    justify-content: center;
+    gap: 7.5rem;
+    padding: 17px;
+}
+
+.links {
+    display: flex;
+    gap: 4rem;
+}
+
+.search_input {
+    border: 1px solid white;
+    background-color: #134288;
+    color: white;
+    padding-left: 2.5rem;
+    width: 13rem;
+}
+
+.search_input::placeholder {
+    color: white;
+}
+
+.search_icon {
+    height: 1.3rem;
+    width: 1.3rem;
+    position: absolute;
+    margin-left: -10.5rem;
+}
+
+.search_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
